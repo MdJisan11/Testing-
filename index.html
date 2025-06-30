@@ -3,37 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahla Network - EVM Blockchain for Web3, NFTs & DeFi</title>
-    <meta name="description" content="Fast, secure EVM-based blockchain for Web3, NFTs & DeFi. Powered by $AHLA token.">
-    <link rel="stylesheet" href="styles.css">
+    <title>Ahla Network | EVM-Compatible Blockchain</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="hero">
-            <img src="https://cdn2.me-qr.com/constructor/user/681697/1751142716.png" alt="Ahla Network" class="feature-image">
-            <h1 class="hero-title">Ahla Network</h1>
-            <p class="hero-subtitle">Fast, secure & EVM-based blockchain for Web3, NFTs & DeFi. Powered by $AHLA.</p>
-            <a href="app.ahlanetwork.xyz" class="cta-button">Join Testnet</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo.svg" alt="Ahla Network" class="logo">
+                <span>Ahla Network</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="active">Home</a>
+                <a href="#features">Features</a>
+                <a href="#technology">Technology</a>
+                <a href="#ecosystem">Ecosystem</a>
+                <a href="#contact">Contact</a>
+                <button class="btn wallet-connect">Connect Wallet</button>
+            </div>
         </div>
-        
-        <img src="https://cdn2.me-qr.com/constructor/user/681697/1751144343.jpg" alt="Ahla Network Features" class="feature-image">
-        
-        <h2 class="section-title">Explore the Building Blocks of Ahla Network</h2>
-        
-        <div class="feature-list">
-            <h3>1. EVM-Compatible Core</h3>
-            <p>Fully compatible with Ethereum smart contracts and tools, with a secure PoS-based consensus ensuring safety and reliability.</p>
-            
-            <!-- Rest of your HTML content remains the same -->
-            <!-- ... -->
-            
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="gradient-text">Build on Ahla Network</h1>
+                <p class="subtitle">Scalable EVM-compatible blockchain for Web3 applications</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <h3><span class="counter">5000</span>+</h3>
+                        <p>Daily Transactions</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3><span class="counter">2</span> sec</h3>
+                        <p>Block Time</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>$<span class="counter">0.001</span></h3>
+                        <p>Avg Gas Fee</p>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="https://t.me/Ahla_Network" class="btn primary"><i class="fab fa-telegram"></i> Join Telegram</a>
+                    <a href="https://x.com/AhlaNetwork" class="btn secondary"><i class="fab fa-twitter"></i> Follow Twitter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/blockchain-illustration.svg" alt="Blockchain Illustration">
+            </div>
         </div>
-        
-        <div class="footer">
-            <p>© 2025 Ahla Network. All rights reserved.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose Ahla Network?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon"><i class="fas fa-bolt"></i></div>
+                    <h3>High Performance</h3>
+                    <p>4000+ TPS with 2-second block finality</p>
+                </div>
+                <!-- More feature cards -->
+            </div>
         </div>
-    </div>
-    
-    <script src="script.js"></script>
+    </section>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
