@@ -1156,4 +1156,7 @@ body.light-theme {
   top: 0;
   left: 0;
 }
-    
+ body, header, section, footer {
+  position: relative;
+  z-index: 1;
+ }   
