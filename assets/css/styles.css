@@ -1147,16 +1147,13 @@ body.light-theme {
 
   .contact__container {
     grid-template-columns: repeat(2, 430px);
- 
-#particles-js {
+
+    #tsparticles {
   position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
   top: 0;
   left: 0;
-}
- body, header, section, footer {
-  position: relative;
-  z-index: 1;
- }   
+  width: 100%;
+  height: 100%;
+  z-index: -10; /* আরও নিচে পাঠিয়ে দিলাম */
+  pointer-events: none; /* যেন কোনো ইন্টারঅ্যাকশন না হয় */
+    }
